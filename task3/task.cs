@@ -11,7 +11,7 @@ namespace homework3_classes2
         static void Main(string[] args)
         {
             Student student1 = new Student("Bilol", 19, "Langar 2", "qobilovb222@gmail.com");
-            Console.WriteLine(student1;
+            Console.WriteLine(student1);
             Console.ReadLine();
         }
     }
