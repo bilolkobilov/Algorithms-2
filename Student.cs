@@ -6,20 +6,56 @@ using System.Threading.Tasks;
 
 namespace homework3_classes
 {
-    internal class Student
-    {
-        public string name;
-        public int age;
-        public string addres;
-        public string eaddres;
+      public class Student
+      {
+        private string name;
+        private int age;
+        private string addres;
+        private string eaddres;
 
-        public Student(string aName, int aAge, string aAddres, string aEaddres)
+        public String aName
         {
-            name = aName;
-            age = aAge;
-            addres = aAddres;
-            eaddres = aEaddres;
-
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }      
+        public int aAge
+        {
+            get
+            {
+                return age;
+            }
+            set
+            {
+                age = value;
+            }
         }
-    }
+        public string aAddres
+        {
+            get
+            {
+                return addres;
+            }
+            set
+            {
+                addres = value;
+            }
+        }
+        public string aEaddres
+        {
+            get
+            {
+                return eaddres;
+            }
+            set
+            {
+                eaddres = value;
+            }
+        }        
+      }
 }

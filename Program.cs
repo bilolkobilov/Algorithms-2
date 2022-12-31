@@ -6,15 +6,27 @@ using System.Threading.Tasks;
 
 namespace homework3_classes
 {
-    internal class Program
-    {
+     class Program
+     {
         static void Main(string[] args)
         {
-            Student student1 = new Student("Bilol", 18, "langar 2", "qobilovbilol8222@gmail.com");
+            //Create accessor and mutator methods for all attributes.
+           
+            Student student1 = new Student();
+            student1.aName = "Bilol";
+            student1.aAge = 18;
+            student1.aAddres = "langar 2";
+            student1.aEaddres = "qobilovbilol8222@gmail.com";
 
-            Console.WriteLine(student1.name);
+            Student student2 = new Student();
+            student2.aName = "Begzod";
+            student2.aAge = 20;
+            student2.aAddres = "Faroboy 2";
+            student2.aEaddres = "begzod001@email.com";
+
+            Console.WriteLine(student1.aName);
             Console.ReadLine();
 
         }
-    }
+     }
 }
