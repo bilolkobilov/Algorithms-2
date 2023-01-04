@@ -8,11 +8,11 @@ namespace homework3_classes3
 {
     class Car
     {
-        public string License;
-        public string VehicleName;
-        public string Category;
-        public int Price;
-        public string AddDate;
+        private string License;
+        private string VehicleName;
+        private string Category;
+        private int Price;
+        private string AddDate;
 
         public Car(string aLicense, string aVehicleName, string aCategory, int aPrice, string aAddData)
         {
@@ -22,5 +22,62 @@ namespace homework3_classes3
             Price = aPrice;
             AddDate = aAddData;
         }
+           public string aLicense
+            {
+                get
+                {
+                    return  License;
+                }
+                set
+                {
+                     License = value;
+                }
+            }
+            public string aVehicleName
+            {
+                get
+                {
+                    return VehicleName;
+                }
+                set
+                {
+                    VehicleName = value;
+                }
+            }
+            public string aCategory
+            {
+                get
+                {
+                    return Category;
+                }
+                set
+                {
+                    Category = value;
+                }
+            }
+            public int aPrice
+            {
+                get
+                {
+                    return Price;
+                }
+                set
+                {
+                    Price = value;
+                }
+            }
+            public string aAddData
+            {
+                get
+                {
+                    return  AddDate;
+                }
+                set
+                {
+                     AddDate = value;
+                }
+            }
+        
+
     }
 }
