@@ -24,6 +24,7 @@ namespace homework3_classes
                 name = value;
             }
         }      
+
         public int aAge
         {
             get
